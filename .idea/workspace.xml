@@ -1,15 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="97846d57-d344-4ba9-b90d-fbfdd455630a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/HeartDiseasePrediction.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data_preprocessing.py" afterDir="false" />
-    </list>
+    <list default="true" id="97846d57-d344-4ba9-b90d-fbfdd455630a" name="Changes" comment="Inicijalna struktura projekta i dodavanje podataka" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -44,6 +36,7 @@
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
     "codeWithMe.voiceChat.enabledByDefault": "false",
     "git-widget-placeholder": "master",
+    "last_opened_file_path": "C:/Nemanja/Python Projects/HeartDiseasePrediction/data",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -61,11 +54,24 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1783783645133</updated>
-      <workItem from="1783783646185" duration="791000" />
+      <workItem from="1783783646185" duration="1101000" />
     </task>
+    <task id="LOCAL-00001" summary="Inicijalna struktura projekta i dodavanje podataka">
+      <option name="closed" value="true" />
+      <created>1783784730768</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1783784730768</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Inicijalna struktura projekta i dodavanje podataka" />
+    <option name="LAST_COMMIT_MESSAGE" value="Inicijalna struktura projekta i dodavanje podataka" />
   </component>
 </project>
