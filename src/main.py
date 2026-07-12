@@ -6,13 +6,9 @@ from pydantic import BaseModel
 
 app = FastAPI()
 
-# 1. Ucitavanje modela sa ispravljene putanje
 putanja_do_modela = os.path.join(os.path.dirname(__file__), 'models', 'best_model.pkl')
 model = joblib.load(putanja_do_modela)
 
-
-# 2. Klasa sa tacno 15 kolona nakon One-Hot Encoding-a
-# Redosled mora biti identican onome iz X_train!
 class Pacijent(BaseModel):
     Age: int
     RestingBP: int
@@ -35,8 +31,6 @@ class Pacijent(BaseModel):
 def home():
     return {"poruka": "API sa 15 obelezja je spreman!"}
 
-
-# 3. Ruta za predikciju koja koristi ovih 15 kolona
 @app.post("/predikcija")
 def napravi_predikciju(podaci: Pacijent):
     # model_dump() pretvara podatke iz klase u obican Python recnik
