@@ -5,7 +5,7 @@ from sklearn.preprocessing import StandardScaler
 
 
 def load_and_preprocess_data():
-    df = pd.read_csv('data/heart.csv')
+    df = pd.read_csv('../data/heart.csv')
 
     df.drop(df[df["RestingBP"] == 0].index, inplace=True)
 
@@ -18,7 +18,7 @@ def load_and_preprocess_data():
     x = df.drop('HeartDisease', axis=1)
     y = df['HeartDisease']
 
-    x_train, x_test, y_train, y_test = train_test_split(x, y, test_size=0.2, random_state=42)
+    x_train, x_test, y_train, y_test = train_test_split(x, y, test_size=0.1, random_state=42, stratify=y)
 
     scaler = StandardScaler()
     x_train_skalirano = scaler.fit_transform(x_train)

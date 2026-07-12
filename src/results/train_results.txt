@@ -1,0 +1,32 @@
+
+==================================================
+Training: 2026-07-12 08:17:44
+==================================================
+--- Model: LogisticRegression ---
+Najbolji parametri: {'C': 1, 'class_weight': None, 'max_iter': 1000, 'penalty': 'l2', 'solver': 'liblinear'}
+precision: 0.93
+accuracy: 0.87
+sensitivity/recall: 0.82
+F score: 0.88
+
+--- Model: KNN ---
+Najbolji parametri: {'metric': 'manhattan', 'n_neighbors': 5}
+precision: 0.89
+accuracy: 0.83
+sensitivity/recall: 0.78
+F score: 0.83
+
+--- Model: DecisionTree ---
+Najbolji parametri: {'class_weight': None, 'criterion': 'gini', 'max_depth': 5, 'min_samples_split': 0.05}
+precision: 0.85
+accuracy: 0.80
+sensitivity/recall: 0.78
+F score: 0.82
+
+--- Model: SVC ---
+Najbolji parametri: {'C': 0.1, 'gamma': 'scale', 'kernel': 'poly'}
+precision: 0.82
+accuracy: 0.83
+sensitivity/recall: 0.88
+F score: 0.85
+
