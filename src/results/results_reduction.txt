@@ -1,0 +1,58 @@
+
+==================================================
+Redukcija dimenzionalnosti -> PCA (90% varijanse)
+Vreme: 2026-07-12 15:42:52
+==================================================
+--- Model: LogisticRegression ---
+precision: 0.95
+accuracy: 0.86
+sensitivity/recall: 0.78
+F score: 0.86
+
+--- Model: KNN ---
+precision: 0.91
+accuracy: 0.86
+sensitivity/recall: 0.82
+F score: 0.87
+
+--- Model: DecisionTree ---
+precision: 0.91
+accuracy: 0.85
+sensitivity/recall: 0.80
+F score: 0.85
+
+--- Model: SVC ---
+precision: 0.83
+accuracy: 0.84
+sensitivity/recall: 0.88
+F score: 0.86
+
+
+==================================================
+Redukcija dimenzionalnosti -> LDA (n_components=1)
+Vreme: 2026-07-12 15:43:02
+==================================================
+--- Model: LogisticRegression ---
+precision: 0.95
+accuracy: 0.87
+sensitivity/recall: 0.80
+F score: 0.87
+
+--- Model: KNN ---
+precision: 0.91
+accuracy: 0.86
+sensitivity/recall: 0.82
+F score: 0.87
+
+--- Model: DecisionTree ---
+precision: 0.86
+accuracy: 0.83
+sensitivity/recall: 0.82
+F score: 0.84
+
+--- Model: SVC ---
+precision: 0.78
+accuracy: 0.82
+sensitivity/recall: 0.92
+F score: 0.85
+

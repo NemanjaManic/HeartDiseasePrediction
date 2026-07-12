@@ -6,10 +6,10 @@ from sklearn.svm import SVC
 
 def get_models_and_params():
     models = {
-        'LogisticRegression': LogisticRegression(random_state=42),
+        'LogisticRegression': LogisticRegression(),
         'KNN': KNeighborsClassifier(),
-        'DecisionTree': DecisionTreeClassifier(random_state=42),
-        'SVC': SVC(random_state=42)
+        'DecisionTree': DecisionTreeClassifier(),
+        'SVC': SVC()
     }
 
     param_grids = {

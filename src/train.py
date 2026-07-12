@@ -18,7 +18,7 @@ def train_models():
 
         vreme_pokretanja = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
         f.write(f"\n==================================================\n")
-        f.write(f"Training: {vreme_pokretanja}\n")
+        f.write(f"Vreme: {vreme_pokretanja}\n")
         f.write(f"==================================================\n")
 
         for name, model in models.items():
@@ -37,7 +37,6 @@ def train_models():
 
             izvestaj_modela = (
                 f"--- Model: {name} ---\n"
-                f"Najbolji parametri: {grid_search.best_params_}\n"
                 f"precision: {precision:.2f}\n"
                 f"accuracy: {accuracy:.2f}\n"
                 f"sensitivity/recall: {sensitivity:.2f}\n"
