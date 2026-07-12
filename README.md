@@ -15,7 +15,7 @@ The complete theoretical background, feature engineering process, and model eval
 * **Language:** Python
 * **API Framework:** FastAPI (with Uvicorn ASGI server)
 * **Data Validation:** Pydantic
-* **Machine Learning:** Scikit-Learn (Logistic Regression)
+* **Machine Learning:** Scikit-Learn 
 * **Data Manipulation:** Pandas
 * **Model Serialization:** Joblib
 
