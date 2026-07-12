@@ -26,3 +26,31 @@ accuracy: 0.83
 sensitivity/recall: 0.88
 F score: 0.85
 
+
+==================================================
+Vreme: 2026-07-12 16:26:42
+==================================================
+--- Model: LogisticRegression ---
+precision: 0.93
+accuracy: 0.87
+sensitivity/recall: 0.82
+F score: 0.88
+
+--- Model: KNN ---
+precision: 0.89
+accuracy: 0.83
+sensitivity/recall: 0.78
+F score: 0.83
+
+--- Model: DecisionTree ---
+precision: 0.85
+accuracy: 0.80
+sensitivity/recall: 0.78
+F score: 0.82
+
+--- Model: SVC ---
+precision: 0.82
+accuracy: 0.83
+sensitivity/recall: 0.88
+F score: 0.85
+

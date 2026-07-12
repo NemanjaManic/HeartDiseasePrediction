@@ -11,7 +11,7 @@ def load_and_preprocess_data():
 
     kategoricke_kolone = ["Sex", "ChestPainType", "RestingECG", "ExerciseAngina", "ST_Slope"]
     df = pd.get_dummies(df, columns=kategoricke_kolone, drop_first=True)
-
+ 
     df['Cholesterol'] = df['Cholesterol'].replace(0, np.nan)
     df['Cholesterol'] = df['Cholesterol'].fillna(df['Cholesterol'].mean())
 
